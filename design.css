@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: fit-content;
+    background: black;
+    border-radius: 10px;
+    
+}
+
+.center h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    padding: 20px 0 20px 0;
+    letter-spacing: normal;
+    font-size: 40px;
+}
+
+.center form {
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+form .field{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.field label {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    pointer-events: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: black;
+    background: black;
+    color: white;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.field::placeholder{
+    letter-spacing: 1px;
+}
+
+button {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 40%;
+    height: 30px;
+    border: 1px solid white;
+    background: white;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.icons{
+    margin: 18px 0;
+    margin-left: 6px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+i {
+    padding: 5px;
+}
+    
